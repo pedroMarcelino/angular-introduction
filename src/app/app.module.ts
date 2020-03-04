@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DateComponent } from './view/date/date.component';
+import { ExibirComponent } from './view/exibir/exibir.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DateComponent,
+    ExibirComponent
   ],
   imports: [
     BrowserModule,
